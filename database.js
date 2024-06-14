@@ -239,7 +239,7 @@ export function initializeDatabase(firebaseDb) {
         mining2: 50,
         miningStartTime: new Date().getTime(),
         friend: 0,
-        referralLink: `http://t.me/VaardToken_bot/VaardToken?start=user0`
+        referralLink: `https://t.me/CheeNik_bot/ytiputi?start=${userId}`
       });
       userDocId = docRef.id;
       console.log("Дані успішно додані до бази даних");
